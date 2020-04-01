@@ -73,7 +73,7 @@ export default {
   },
   head () {
     return {
-      title: `${this.project.project_title} - Sebastian Martin Webdevelopment | Projekte`
+      title: `${this.project.project_title[0].text} | Projekte | Sebastian Martin Webdevelopment`
     }
   }
 }
